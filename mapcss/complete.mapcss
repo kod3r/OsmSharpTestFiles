@@ -39,13 +39,13 @@ way|z15-[railway=rail]												{ color: darkgray;  z-index: 3; width: 1; dash
 
 /* ===== Roads (highway=*) ===== */
 /* default text */
-way|z14-[highway]								{ text-color: #534d38; text-position: line; text-halo-color: white; text-halo-radius: 1; }
+way|z15-[highway]								{ text-color: #534d38; text-position: line; text-halo-color: white; text-halo-radius: 1; }
 
 /* widths per zoom-level */
 way|z-15[highway]								{ width: 1; }
 way|z16[highway]								{ width: 2; }
 way|z17[highway]								{ width: 4; }
-way|z1-20[highway]								{ width: 7; }
+way|z18-[highway]								{ width: 7; }
 
 /* colors and styles per highway type. */
 way[highway=motorway],way[highway=motorway_link],
